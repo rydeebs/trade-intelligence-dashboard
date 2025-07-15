@@ -1,0 +1,41 @@
+# Trade Intelligence Dashboard - Cursor AI Rules
+
+## Project Context
+This is a Streamlit-based trade intelligence dashboard for eCommerce merchants. It integrates World Bank and WITS APIs to provide trade data, tariff calculations, and market insights.
+
+## Tech Stack
+- Python 3.8+
+- Streamlit for UI
+- Pandas for data processing
+- Plotly for visualizations
+- SQLAlchemy for database operations
+- World Bank Open Data API
+- WITS (World Integrated Trade Solution) API
+
+## Code Style
+- Use type hints for all functions
+- Follow PEP 8 naming conventions
+- Use Streamlit caching decorators (@st.cache_data)
+- Prefer composition over inheritance
+- Write docstrings for all public functions
+
+## File Organization
+- API clients in src/api/
+- Data processing in src/data/
+- Dashboard components in src/dashboard/
+- Tests mirror the src/ structure
+- Configuration in config/
+
+## Common Patterns
+- Use pandas DataFrames for data manipulation
+- Cache API responses with TTL
+- Handle API errors gracefully with try/except
+- Use Streamlit components: st.columns(), st.metrics(), st.plotly_chart()
+- Validate user inputs before processing
+
+## When suggesting code:
+1. Include proper error handling
+2. Add type hints and docstrings
+3. Use the existing project structure
+4. Consider performance with @st.cache_data
+5. Make UI responsive with st.columns()
