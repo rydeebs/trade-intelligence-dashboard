@@ -784,32 +784,47 @@ class ExpansionAnalyzer:
         if analysis_focus == "Market Size":
             large_markets = combined_data[combined_data['population'] > 50000000]
             if not large_markets.empty:
-                insights.append({
-                    'type': 'opportunity',
-                    'country': 'multiple',
-                    'title': f"Large Market Focus: {len(large_markets)} Major Markets",
-                    'message': f"Markets with >50M population: {', '.join(large_markets.nlargest(3, 'population')['country_code'].tolist())}. Your Market Size focus prioritizes these high-population opportunities for maximum scale potential."
-                })
+                # Safe access to country codes
+                large_countries = [market.get('country_code', 'Unknown') for _, market in large_markets.nlargest(3, 'population').iterrows()]
+                large_countries = [c for c in large_countries if c != 'Unknown'][:3]  # Filter out unknowns and limit to 3
+                
+                if large_countries:
+                    insights.append({
+                        'type': 'opportunity',
+                        'country': 'multiple',
+                        'title': f"Large Market Focus: {len(large_markets)} Major Markets",
+                        'message': f"Markets with >50M population: {', '.join(large_countries)}. Your Market Size focus prioritizes these high-population opportunities for maximum scale potential."
+                    })
         
         elif analysis_focus == "Digital Readiness":
             digital_leaders = combined_data[combined_data['internet_users_pct'] > 85]
             if not digital_leaders.empty:
-                insights.append({
-                    'type': 'opportunity',
-                    'country': 'multiple',
-                    'title': f"Digital Readiness Focus: {len(digital_leaders)} Advanced Markets",
-                    'message': f"Markets with >85% internet penetration: {', '.join(digital_leaders['country_code'].tolist())}. Your Digital Readiness focus emphasizes these tech-advanced markets for immediate digital commerce success."
-                })
+                # Safe access to country codes
+                digital_countries = [market.get('country_code', 'Unknown') for _, market in digital_leaders.iterrows()]
+                digital_countries = [c for c in digital_countries if c != 'Unknown']
+                
+                if digital_countries:
+                    insights.append({
+                        'type': 'opportunity',
+                        'country': 'multiple',
+                        'title': f"Digital Readiness Focus: {len(digital_leaders)} Advanced Markets",
+                        'message': f"Markets with >85% internet penetration: {', '.join(digital_countries)}. Your Digital Readiness focus emphasizes these tech-advanced markets for immediate digital commerce success."
+                    })
         
         elif analysis_focus == "Ease of Entry":
             easy_entry = combined_data[combined_data.get('logistics_performance', 3) > 3.5]
             if not easy_entry.empty:
-                insights.append({
-                    'type': 'opportunity',
-                    'country': 'multiple',
-                    'title': f"Ease of Entry Focus: {len(easy_entry)} Business-Friendly Markets",
-                    'message': f"Markets with excellent logistics (>3.5/5): {', '.join(easy_entry['country_code'].tolist())}. Your Ease of Entry focus prioritizes these operationally efficient markets for smoother market entry."
-                })
+                # Safe access to country codes
+                easy_countries = [market.get('country_code', 'Unknown') for _, market in easy_entry.iterrows()]
+                easy_countries = [c for c in easy_countries if c != 'Unknown']
+                
+                if easy_countries:
+                    insights.append({
+                        'type': 'opportunity',
+                        'country': 'multiple',
+                        'title': f"Ease of Entry Focus: {len(easy_entry)} Business-Friendly Markets",
+                        'message': f"Markets with excellent logistics (>3.5/5): {', '.join(easy_countries)}. Your Ease of Entry focus prioritizes these operationally efficient markets for smoother market entry."
+                    })
         
         elif analysis_focus == "Growth Potential":
             emerging_growth = combined_data[
@@ -817,12 +832,18 @@ class ExpansionAnalyzer:
                 (combined_data['urban_population_pct'] > 60)
             ]
             if not emerging_growth.empty:
-                insights.append({
-                    'type': 'opportunity',
-                    'country': 'multiple',
-                    'title': f"Growth Potential Focus: {len(emerging_growth)} Emerging Markets",
-                    'message': f"High-growth emerging markets: {', '.join(emerging_growth.nlargest(3, 'market_attractiveness_score')['country_code'].tolist())}. Your Growth Potential focus identifies these rapidly developing markets for long-term expansion opportunities."
-                })
+                # Safe access to top growth markets
+                top_growth = emerging_growth.nlargest(3, 'market_attractiveness_score')
+                growth_countries = [market.get('country_code', 'Unknown') for _, market in top_growth.iterrows()]
+                growth_countries = [c for c in growth_countries if c != 'Unknown']
+                
+                if growth_countries:
+                    insights.append({
+                        'type': 'opportunity',
+                        'country': 'multiple',
+                        'title': f"Growth Potential Focus: {len(emerging_growth)} Emerging Markets",
+                        'message': f"High-growth emerging markets: {', '.join(growth_countries)}. Your Growth Potential focus identifies these rapidly developing markets for long-term expansion opportunities."
+                    })
         
         # Category-specific insights
         if category in CATEGORY_INDICATORS:
@@ -851,6 +872,9 @@ class ExpansionAnalyzer:
         # Top market opportunities (now influenced by analysis focus)
         top_markets = combined_data.nlargest(3, 'market_attractiveness_score')
         for _, market in top_markets.iterrows():
+            # Safe access to market name with fallback
+            market_name = market.get('name', market.get('country_code', 'Unknown Market'))
+            
             focus_reason = ""
             if analysis_focus == "Market Size":
                 focus_reason = f" Large market size ({market.get('population', 0)/1e6:.0f}M people) aligns with your Market Size focus."
@@ -863,21 +887,26 @@ class ExpansionAnalyzer:
             
             insights.append({
                 'type': 'opportunity',
-                'country': market['country_code'],
-                'title': f"High Opportunity Market: {market['country_code']}",
+                'country': market.get('country_code', 'Unknown'),
+                'title': f"High Opportunity Market: {market_name}",
                 'message': f"Market attractiveness score: {market['market_attractiveness_score']:.1f}/100. Strong fundamentals (${market.get('gdp_per_capita_ppp', 0):,.0f} GDP per capita PPP).{focus_reason}"
             })
         
         # Digital readiness insights
         digital_ready = combined_data[combined_data['internet_users_pct'] > 70]
         if not digital_ready.empty:
-            focus_note = " (Especially relevant for your Digital Readiness focus)" if analysis_focus == "Digital Readiness" else ""
-            insights.append({
-                'type': 'opportunity',
-                'country': 'multiple',
-                'title': f"Digital-Ready Markets ({len(digital_ready)} countries)",
-                'message': f"Markets with >70% internet penetration: {', '.join(digital_ready['country_code'].tolist())}. These markets show strong foundation for digital commerce adoption.{focus_note}"
-            })
+            # Safe access to country codes
+            digital_countries = [market.get('country_code', 'Unknown') for _, market in digital_ready.iterrows()]
+            digital_countries = [c for c in digital_countries if c != 'Unknown']
+            
+            if digital_countries:
+                focus_note = " (Especially relevant for your Digital Readiness focus)" if analysis_focus == "Digital Readiness" else ""
+                insights.append({
+                    'type': 'opportunity',
+                    'country': 'multiple',
+                    'title': f"Digital-Ready Markets ({len(digital_ready)} countries)",
+                    'message': f"Markets with >70% internet penetration: {', '.join(digital_countries)}. These markets show strong foundation for digital commerce adoption.{focus_note}"
+                })
         
         # Risk warnings based on governance
         high_risk = combined_data[
@@ -885,14 +914,18 @@ class ExpansionAnalyzer:
             (combined_data.get('logistics_performance', 3) < 2.5)
         ]
         for _, market in high_risk.iterrows():
+            # Safe access to market identifiers with fallback
+            market_name = market.get('name', market.get('country_code', 'Unknown Market'))
+            market_code = market.get('country_code', 'Unknown')
+            
             focus_impact = ""
             if analysis_focus == "Ease of Entry":
                 focus_impact = " This is particularly important given your Ease of Entry focus."
             
             insights.append({
                 'type': 'warning',
-                'country': market['country_code'],
-                'title': f"Expansion Risk: {market['country_code']}",
+                'country': market_code,
+                'title': f"Expansion Risk: {market_name}",
                 'message': f"Consider additional due diligence. Logistics performance: {market.get('logistics_performance', 0):.2f}/5, Rule of law: {market.get('rule_of_law', 0):.2f} (scale -2.5 to 2.5).{focus_impact}"
             })
         
@@ -900,21 +933,32 @@ class ExpansionAnalyzer:
         if risk_tolerance == "Conservative":
             stable_markets = combined_data[combined_data.get('rule_of_law', 0) > 1.0]
             if not stable_markets.empty:
-                insights.append({
-                    'type': 'recommendation',
-                    'country': 'strategy',
-                    'title': "Conservative Strategy Recommendation",
-                    'message': f"Focus on stable, high-governance markets: {', '.join(stable_markets['country_code'].tolist())}. These markets offer lower regulatory risk and established business environments, perfect for your conservative approach."
-                })
+                # Safe access to country codes
+                stable_countries = [market.get('country_code', 'Unknown') for _, market in stable_markets.iterrows()]
+                stable_countries = [c for c in stable_countries if c != 'Unknown']  # Filter out unknowns
+                
+                if stable_countries:
+                    insights.append({
+                        'type': 'recommendation',
+                        'country': 'strategy',
+                        'title': "Conservative Strategy Recommendation",
+                        'message': f"Focus on stable, high-governance markets: {', '.join(stable_countries)}. These markets offer lower regulatory risk and established business environments, perfect for your conservative approach."
+                    })
         elif risk_tolerance == "Aggressive":
             emerging_markets = combined_data[combined_data.get('gdp_per_capita_ppp', 0) < 20000]
             if not emerging_markets.empty:
-                insights.append({
-                    'type': 'recommendation',
-                    'country': 'strategy',
-                    'title': "Aggressive Strategy Opportunity",
-                    'message': f"Consider high-growth emerging markets: {', '.join(emerging_markets.nlargest(3, 'market_attractiveness_score')['country_code'].tolist())}. Higher risk but potentially significant first-mover advantages, matching your aggressive risk tolerance."
-                })
+                # Safe access to top emerging markets
+                top_emerging = emerging_markets.nlargest(3, 'market_attractiveness_score')
+                emerging_countries = [market.get('country_code', 'Unknown') for _, market in top_emerging.iterrows()]
+                emerging_countries = [c for c in emerging_countries if c != 'Unknown']  # Filter out unknowns
+                
+                if emerging_countries:
+                    insights.append({
+                        'type': 'recommendation',
+                        'country': 'strategy',
+                        'title': "Aggressive Strategy Opportunity",
+                        'message': f"Consider high-growth emerging markets: {', '.join(emerging_countries)}. Higher risk but potentially significant first-mover advantages, matching your aggressive risk tolerance."
+                    })
         
         return insights[:15]  # Limit to top 15 insights
 
@@ -1850,6 +1894,7 @@ def render_expansion_insights(config):
         config['product_category']
     )
     governance_data = WorldBankExpansionAPI.get_governance_indicators(config['countries'])
+    countries_df = WorldBankExpansionAPI.get_countries()
     
     # Calculate scores
     analyzer = ExpansionAnalyzer()
@@ -1859,6 +1904,22 @@ def render_expansion_insights(config):
         config['business_type'],
         config['risk_tolerance'],
         config['analysis_focus']  # Now using analysis focus
+    )
+    
+    # Merge with country names BEFORE generating insights
+    scored_data = scored_data.merge(
+        countries_df[['code', 'name', 'region']], 
+        left_on='country_code', 
+        right_on='code', 
+        how='left'
+    )
+    
+    # Also merge governance data with country names
+    governance_data = governance_data.merge(
+        countries_df[['code', 'name', 'region']], 
+        left_on='country_code', 
+        right_on='code', 
+        how='left'
     )
     
     # Generate insights
@@ -1929,7 +1990,9 @@ def render_expansion_insights(config):
         phase1_markets = top_markets.head(2)
         for _, market in phase1_markets.iterrows():
             score = market['market_attractiveness_score']
-            st.markdown(f"• **{market['name']}** (Score: {score:.1f}/100)")
+            # Use country code as fallback if name is missing
+            market_name = market.get('name', market.get('country_code', 'Unknown'))
+            st.markdown(f"• **{market_name}** (Score: {score:.1f}/100)")
         
         st.caption("Focus on highest-scoring markets with established infrastructure")
     
@@ -1940,7 +2003,9 @@ def render_expansion_insights(config):
         phase2_markets = top_markets.iloc[2:4] if len(top_markets) > 2 else top_markets.tail(1)
         for _, market in phase2_markets.iterrows():
             score = market['market_attractiveness_score']
-            st.markdown(f"• **{market['name']}** (Score: {score:.1f}/100)")
+            # Use country code as fallback if name is missing
+            market_name = market.get('name', market.get('country_code', 'Unknown'))
+            st.markdown(f"• **{market_name}** (Score: {score:.1f}/100)")
         
         st.caption("Leverage learnings from Phase 1 for these markets")
     
