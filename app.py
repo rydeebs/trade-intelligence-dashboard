@@ -1368,7 +1368,7 @@ def render_market_analysis(config):
                 for factor, weight in sorted(weights.items(), key=lambda x: x[1], reverse=True)
             ])
             
-            fig = px.bar(
+            fig_weights = px.bar(
                 weights_df,
                 x="Raw Weight",
                 y="Factor",
@@ -1376,8 +1376,8 @@ def render_market_analysis(config):
                 title="Current Analysis Weights",
                 text="Weight"
             )
-            fig.update_layout(height=300, showlegend=False)
-            st.plotly_chart(fig, use_container_width=True)
+            fig_weights.update_layout(height=300, showlegend=False)
+            st.plotly_chart(fig_weights, use_container_width=True)
         
         with col2:
             st.markdown("**Weight Breakdown:**")
@@ -1403,7 +1403,7 @@ def render_market_analysis(config):
     
     with col1:
         # Economic vs Digital readiness
-        fig = px.scatter(
+        fig1 = px.scatter(
             scored_data,
             x='gdp_per_capita_ppp',
             y='internet_users_pct',
@@ -1417,11 +1417,11 @@ def render_market_analysis(config):
                 'market_attractiveness_score': 'Attractiveness Score'
             }
         )
-        st.plotly_chart(fig, use_container_width=True)
+        st.plotly_chart(fig1, use_container_width=True)
     
     with col2:
-        # Market size vs attractiveness
-        fig = px.scatter(
+        # Market size vs attractiveness  
+        fig2 = px.scatter(
             scored_data,
             x='population',
             y='market_attractiveness_score',
@@ -1434,8 +1434,9 @@ def render_market_analysis(config):
                 'market_attractiveness_score': 'Attractiveness Score'
             }
         )
-        fig.update_layout(xaxis_type="log")
-        st.plotly_chart(fig, use_container_width=True)
+        # Use the correct plotly method for log scale
+        fig2.update_layout(xaxis_type="log")
+        st.plotly_chart(fig2, use_container_width=True)
 
 def render_digital_readiness(config):
     """Render digital readiness analysis"""
