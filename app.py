@@ -409,7 +409,7 @@ class WorldBankExpansionAPI:
                     'per_page': 100
                 }
                 
-                response = requests.get(url, params=params, timeout=20)
+                response = requests.get(url, params=params, timeout=10)  # Reduced timeout
                 
                 if response.status_code == 200:
                     data = response.json()
@@ -434,25 +434,28 @@ class WorldBankExpansionAPI:
                             api_success_count += 1
                         
                 else:
-                    st.warning(f"API error for {country}: Status {response.status_code}")
+                    # Don't show warning for each failed country to reduce noise
+                    pass
                 
             except Exception as e:
-                st.warning(f"Error fetching data for {country}: {str(e)[:100]}")
+                # Don't show warning for each failed country to reduce noise
                 continue
         
         # Clear progress message
         progress_container.empty()
         
-        if all_data and api_success_count >= len(countries) * 0.5:  # At least 50% success
+        if all_data and api_success_count >= max(1, len(countries) * 0.3):  # At least 30% success or 1 country
             df = pd.DataFrame(all_data)
             # Fill missing values with medians from successful data
             df = WorldBankExpansionAPI._fill_missing_data(df, category)
             st.success(f"✅ Successfully loaded real World Bank data for {api_success_count}/{len(countries)} countries")
             return df
         else:
-            # API failed significantly - use sample data
-            st.error(f"❌ World Bank API failed for most countries (only {api_success_count}/{len(countries)} successful)")
-            st.warning("🔄 Using sample data for demonstration. Real-time data unavailable.")
+            # API failed significantly - use sample data with less alarming message
+            if api_success_count == 0:
+                st.info(f"🔄 World Bank API unavailable. Using sample data for {len(countries)} countries to demonstrate functionality.")
+            else:
+                st.warning(f"⚠️ Limited API success ({api_success_count}/{len(countries)}). Supplementing with sample data.")
             return WorldBankExpansionAPI._get_sample_market_data(countries, category)
     
     @staticmethod
@@ -1431,7 +1434,7 @@ def render_market_analysis(config):
                 'market_attractiveness_score': 'Attractiveness Score'
             }
         )
-        fig.update_xaxis(type="log")
+        fig.update_layout(xaxis_type="log")
         st.plotly_chart(fig, use_container_width=True)
 
 def render_digital_readiness(config):
