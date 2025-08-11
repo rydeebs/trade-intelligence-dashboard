@@ -1,0 +1,33 @@
+product_category,factor,base_weight,description
+Electronics,internet_users_pct,0.35,Base weight for internet_users_pct in Electronics category
+Electronics,mobile_subscriptions,0.25,Base weight for mobile_subscriptions in Electronics category
+Electronics,gdp_per_capita_ppp,0.25,Base weight for gdp_per_capita_ppp in Electronics category
+Electronics,urban_population_pct,0.15,Base weight for urban_population_pct in Electronics category
+Fashion & Apparel,consumption_per_capita,0.35,Base weight for consumption_per_capita in Fashion & Apparel category
+Fashion & Apparel,urban_population_pct,0.3,Base weight for urban_population_pct in Fashion & Apparel category
+Fashion & Apparel,gdp_per_capita_ppp,0.2,Base weight for gdp_per_capita_ppp in Fashion & Apparel category
+Fashion & Apparel,female_employment_pct,0.15,Base weight for female_employment_pct in Fashion & Apparel category
+Health & Beauty,gdp_per_capita_ppp,0.3,Base weight for gdp_per_capita_ppp in Health & Beauty category
+Health & Beauty,health_expenditure_per_capita,0.25,Base weight for health_expenditure_per_capita in Health & Beauty category
+Health & Beauty,life_expectancy,0.25,Base weight for life_expectancy in Health & Beauty category
+Health & Beauty,population_65_plus_pct,0.2,Base weight for population_65_plus_pct in Health & Beauty category
+Home & Garden,gdp_per_capita_ppp,0.35,Base weight for gdp_per_capita_ppp in Home & Garden category
+Home & Garden,consumption_per_capita,0.25,Base weight for consumption_per_capita in Home & Garden category
+Home & Garden,urban_population_pct,0.25,Base weight for urban_population_pct in Home & Garden category
+Home & Garden,electricity_access_pct,0.15,Base weight for electricity_access_pct in Home & Garden category
+Books & Media,literacy_rate,0.3,Base weight for literacy_rate in Books & Media category
+Books & Media,tertiary_education,0.25,Base weight for tertiary_education in Books & Media category
+Books & Media,internet_users_pct,0.25,Base weight for internet_users_pct in Books & Media category
+Books & Media,gdp_per_capita_ppp,0.2,Base weight for gdp_per_capita_ppp in Books & Media category
+Sports & Outdoors,gdp_per_capita_ppp,0.3,Base weight for gdp_per_capita_ppp in Sports & Outdoors category
+Sports & Outdoors,consumption_per_capita,0.25,Base weight for consumption_per_capita in Sports & Outdoors category
+Sports & Outdoors,working_age_population,0.25,Base weight for working_age_population in Sports & Outdoors category
+Sports & Outdoors,urban_population_pct,0.2,Base weight for urban_population_pct in Sports & Outdoors category
+Automotive,gdp_per_capita_ppp,0.35,Base weight for gdp_per_capita_ppp in Automotive category
+Automotive,vehicles_per_1000,0.25,Base weight for vehicles_per_1000 in Automotive category
+Automotive,consumption_per_capita,0.25,Base weight for consumption_per_capita in Automotive category
+Automotive,paved_roads_pct,0.15,Base weight for paved_roads_pct in Automotive category
+Industrial,manufacturing_value_added_pct,0.35,Base weight for manufacturing_value_added_pct in Industrial category
+Industrial,logistics_performance,0.25,Base weight for logistics_performance in Industrial category
+Industrial,gdp_per_capita_ppp,0.25,Base weight for gdp_per_capita_ppp in Industrial category
+Industrial,domestic_credit_pct_gdp,0.15,Base weight for domestic_credit_pct_gdp in Industrial category

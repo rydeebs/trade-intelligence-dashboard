@@ -1,0 +1,9 @@
+Last updated: 2025-08-11 13:31:06
+Files updated: 5
+Export location: ./powerbi_csv_files
+Files:
+  - market_scores.csv
+  - export_summary.csv
+  - market_indicators.csv
+  - countries_master.csv
+  - business_rules.csv
