@@ -1,0 +1,212 @@
+country_code,country_name,region,income_level,year,data_source,lpi_score_overall,customs_score,infrastructure_score,international_shipments_score,logistics_competence_score,tracking_tracing_score,timeliness_score,lpi_rank,last_updated
+USA,United States,North America,High income,2022,World Bank API,3.82,3.7,3.9,3.4,3.9,4.2,3.8,16.0,2025-08-25 12:14:56.796825
+CHN,China,East Asia & Pacific,Upper middle income,2022,World Bank API,3.7,3.3,4.0,3.6,3.8,3.8,3.7,21.0,2025-08-25 12:14:56.796825
+JPN,Japan,East Asia & Pacific,High income,2022,World Bank API,3.92,3.9,4.2,3.3,4.1,4.0,4.0,14.0,2025-08-25 12:14:56.796825
+DEU,Germany,Europe & Central Asia,High income,2022,World Bank API,4.07,3.9,4.3,3.7,4.2,4.2,4.1,5.0,2025-08-25 12:14:56.796825
+IND,India,South Asia,Lower middle income,2022,World Bank API,3.37,3.0,3.2,3.5,3.5,3.4,3.6,41.0,2025-08-25 12:14:56.796825
+GBR,United Kingdom,Europe & Central Asia,High income,2022,World Bank API,3.68,3.5,3.7,3.5,3.7,4.0,3.7,23.0,2025-08-25 12:14:56.796825
+FRA,France,Europe & Central Asia,High income,2022,World Bank API,3.85,3.7,3.8,3.7,3.8,4.0,4.1,15.0,2025-08-25 12:14:56.796825
+ITA,Italy,Europe & Central Asia,High income,2022,World Bank API,3.7,3.4,3.8,3.4,3.8,3.9,3.9,22.0,2025-08-25 12:14:56.796825
+BRA,Brazil,Latin America & Caribbean,Upper middle income,2022,World Bank API,3.16,2.9,3.2,2.9,3.3,,3.5,53.0,2025-08-25 12:14:56.796825
+CAN,Canada,North America,High income,2022,World Bank API,4.05,4.0,4.3,3.6,4.2,4.1,4.1,6.0,2025-08-25 12:14:56.796825
+RUS,Russian Federation,Europe & Central Asia,Upper middle income,2022,World Bank API,2.57,2.4,2.7,2.3,2.6,2.5,2.9,107.0,2025-08-25 12:14:56.796825
+KOR,"Korea, Rep.",East Asia & Pacific,High income,2022,World Bank API,3.8,3.9,4.1,3.4,3.8,3.8,3.8,17.0,2025-08-25 12:14:56.796825
+ESP,Spain,Europe & Central Asia,High income,2022,World Bank API,3.92,3.6,3.8,,3.9,4.1,4.2,13.0,2025-08-25 12:14:56.796825
+AUS,Australia,East Asia & Pacific,High income,2022,World Bank API,3.78,3.7,4.1,3.1,3.9,4.1,,18.0,2025-08-25 12:14:56.796825
+MEX,Mexico,Latin America & Caribbean,Upper middle income,2022,World Bank API,2.95,2.5,2.8,2.8,3.0,3.1,3.5,68.0,2025-08-25 12:14:56.796825
+IDN,Indonesia,East Asia & Pacific,Upper middle income,2022,World Bank API,2.98,2.8,2.9,3.0,2.9,3.0,3.3,62.0,2025-08-25 12:14:56.796825
+NLD,Netherlands,Europe & Central Asia,High income,2022,World Bank API,4.03,,4.2,3.7,,4.2,4.0,9.0,2025-08-25 12:14:56.796825
+SAU,Saudi Arabia,Middle East & North Africa,High income,2022,World Bank API,3.38,3.0,3.6,3.3,3.3,3.5,3.6,40.0,2025-08-25 12:14:56.796825
+TUR,Turkey,Europe & Central Asia,Upper middle income,2022,World Bank API,3.4,3.0,3.4,3.4,3.5,3.5,3.6,38.0,2025-08-25 12:14:56.796825
+CHE,Switzerland,Europe & Central Asia,High income,2022,World Bank API,4.13,4.1,4.4,3.6,4.3,4.2,4.2,3.0,2025-08-25 12:14:56.796825
+POL,Poland,Europe & Central Asia,High income,2022,World Bank API,3.58,3.4,3.5,3.3,3.6,3.8,3.9,30.0,2025-08-25 12:14:56.796825
+BEL,Belgium,Europe & Central Asia,High income,2022,World Bank API,4.03,3.9,4.1,3.8,4.2,4.0,4.2,8.0,2025-08-25 12:14:56.796825
+SWE,Sweden,Europe & Central Asia,High income,2022,World Bank API,4.12,4.0,,,4.2,4.1,4.2,4.0,2025-08-25 12:14:56.796825
+IRL,Ireland,Europe & Central Asia,High income,2022,World Bank API,3.56,3.4,3.5,3.6,3.6,3.7,,32.0,2025-08-25 12:14:56.796825
+AUT,Austria,Europe & Central Asia,High income,2022,World Bank API,3.98,3.7,3.9,3.8,,4.2,4.3,11.0,2025-08-25 12:14:56.796825
+NOR,Norway,Europe & Central Asia,High income,2022,World Bank API,3.7,3.8,3.9,3.0,3.8,3.7,4.0,20.0,2025-08-25 12:14:56.796825
+DNK,Denmark,Europe & Central Asia,High income,2022,World Bank API,4.05,4.1,4.1,3.6,4.1,4.3,4.1,7.0,2025-08-25 12:14:56.796825
+FIN,Finland,Europe & Central Asia,High income,2022,World Bank API,4.16,4.0,4.2,4.1,,4.2,4.3,2.0,2025-08-25 12:14:56.796825
+PRT,Portugal,Europe & Central Asia,High income,2022,World Bank API,3.38,3.2,3.6,3.1,3.6,3.2,3.6,39.0,2025-08-25 12:14:56.796825
+GRC,Greece,Europe & Central Asia,High income,2022,World Bank API,3.7,3.2,3.7,3.8,,3.9,3.9,19.0,2025-08-25 12:14:56.796825
+CZE,Czech Republic,Europe & Central Asia,High income,2022,World Bank API,3.32,3.0,3.0,3.4,3.6,3.2,3.7,43.0,2025-08-25 12:14:56.796825
+HUN,Hungary,Europe & Central Asia,High income,2022,World Bank API,3.22,2.7,3.1,3.4,3.1,3.4,3.6,50.0,2025-08-25 12:14:56.796825
+SVK,Slovak Republic,Europe & Central Asia,High income,2022,World Bank API,3.28,3.2,3.3,3.0,3.4,,3.5,45.0,2025-08-25 12:14:56.796825
+SVN,Slovenia,Europe & Central Asia,High income,2022,World Bank API,3.28,3.4,,3.4,3.3,3.0,3.3,46.0,2025-08-25 12:14:56.796825
+EST,Estonia,Europe & Central Asia,High income,2022,World Bank API,3.62,3.2,3.5,3.4,3.7,3.8,4.1,29.0,2025-08-25 12:14:56.796825
+LVA,Latvia,Europe & Central Asia,High income,2022,World Bank API,3.52,3.3,,3.2,,3.6,4.0,33.0,2025-08-25 12:14:56.796825
+LTU,Lithuania,Europe & Central Asia,High income,2022,World Bank API,3.46,3.2,3.5,3.4,3.6,,3.6,37.0,2025-08-25 12:14:56.796825
+CYP,Cyprus,Europe & Central Asia,High income,2022,World Bank API,3.15,2.9,2.8,3.1,3.2,3.4,3.5,54.0,2025-08-25 12:14:56.796825
+MLT,Malta,Europe & Central Asia,High income,2022,World Bank API,3.34,3.4,3.7,3.0,3.4,,3.2,42.0,2025-08-25 12:14:56.796825
+LUX,Luxembourg,Europe & Central Asia,High income,2022,World Bank API,3.67,3.6,3.6,3.6,3.9,,,24.0,2025-08-25 12:14:56.796825
+ISL,Iceland,Europe & Central Asia,High income,2022,World Bank API,3.57,3.7,3.6,3.3,3.5,3.7,3.6,31.0,2025-08-25 12:14:56.796825
+ROU,Romania,Europe & Central Asia,High income,2022,World Bank API,3.23,2.7,2.9,3.4,3.3,3.5,3.6,49.0,2025-08-25 12:14:56.796825
+BGR,Bulgaria,Europe & Central Asia,Upper middle income,2022,World Bank API,3.22,3.1,3.1,3.0,3.3,3.3,3.5,51.0,2025-08-25 12:14:56.796825
+HRV,Croatia,Europe & Central Asia,High income,2022,World Bank API,3.13,3.0,3.0,,,3.4,,57.0,2025-08-25 12:14:56.796825
+SRB,Serbia,Europe & Central Asia,Upper middle income,2022,World Bank API,2.75,2.2,2.4,2.9,2.7,2.9,3.4,83.0,2025-08-25 12:14:56.796825
+BIH,Bosnia and Herzegovina,Europe & Central Asia,Upper middle income,2022,World Bank API,2.95,2.7,2.6,3.1,2.9,3.2,3.2,66.0,2025-08-25 12:14:56.796825
+MKD,North Macedonia,Europe & Central Asia,Upper middle income,2022,World Bank API,3.13,3.1,3.0,2.8,3.2,3.2,3.5,56.0,2025-08-25 12:14:56.796825
+ALB,Albania,Europe & Central Asia,Upper middle income,2022,World Bank API,2.5,2.4,2.7,2.8,2.3,2.3,,117.0,2025-08-25 12:14:56.796825
+MNE,Montenegro,Europe & Central Asia,Upper middle income,2022,World Bank API,2.85,2.6,2.5,2.8,2.8,3.2,3.2,75.0,2025-08-25 12:14:56.796825
+UKR,Ukraine,Europe & Central Asia,Lower middle income,2022,World Bank API,2.65,2.4,2.4,2.8,2.6,2.6,3.1,95.0,2025-08-25 12:14:56.796825
+SGP,Singapore,East Asia & Pacific,High income,2022,World Bank API,4.32,4.2,4.6,4.0,4.4,4.4,4.3,1.0,2025-08-25 12:14:56.796825
+HKG,"Hong Kong SAR, China",East Asia & Pacific,High income,2022,World Bank API,4.02,3.8,4.0,4.0,4.0,4.2,4.1,10.0,2025-08-25 12:14:56.796825
+MYS,Malaysia,East Asia & Pacific,Upper middle income,2022,World Bank API,3.62,3.3,3.6,3.7,3.7,3.7,3.7,28.0,2025-08-25 12:14:56.796825
+THA,Thailand,East Asia & Pacific,Upper middle income,2022,World Bank API,3.52,3.3,3.7,3.5,3.5,3.6,3.5,34.0,2025-08-25 12:14:56.796825
+PHL,Philippines,East Asia & Pacific,Lower middle income,2022,World Bank API,3.27,2.8,3.2,3.1,3.3,3.3,3.9,47.0,2025-08-25 12:14:56.796825
+VNM,Vietnam,East Asia & Pacific,Lower middle income,2022,World Bank API,3.25,3.1,3.2,3.3,3.2,3.4,3.3,48.0,2025-08-25 12:14:56.796825
+NZL,New Zealand,East Asia & Pacific,High income,2022,World Bank API,3.66,,3.8,3.2,3.7,3.8,3.8,25.0,2025-08-25 12:14:56.796825
+TWN,"Taiwan, China",East Asia & Pacific,High income,2023,World Bank API,,,,,,,,,2025-08-25 12:14:56.796825
+MNG,Mongolia,East Asia & Pacific,Upper middle income,2022,World Bank API,2.4,2.5,2.3,2.5,2.3,2.4,,137.0,2025-08-25 12:14:56.796825
+LAO,Lao PDR,East Asia & Pacific,Lower middle income,2022,World Bank API,2.42,2.3,2.3,2.3,2.4,,2.8,133.0,2025-08-25 12:14:56.796825
+KHM,Cambodia,East Asia & Pacific,Lower middle income,2022,World Bank API,2.42,2.2,2.1,2.3,2.4,2.8,2.7,134.0,2025-08-25 12:14:56.796825
+MMR,Myanmar,East Asia & Pacific,Lower middle income,2018,World Bank API,2.4,,,2.2,2.28,2.2,2.91,138.0,2025-08-25 12:14:56.796825
+BRN,Brunei Darussalam,East Asia & Pacific,High income,2018,World Bank API,2.7,2.62,2.46,2.51,2.71,2.75,3.17,87.0,2025-08-25 12:14:56.796825
+PNG,Papua New Guinea,East Asia & Pacific,Lower middle income,2022,World Bank API,2.47,2.4,2.4,2.6,,,,124.0,2025-08-25 12:14:56.796825
+FJI,Fiji,East Asia & Pacific,Upper middle income,2022,World Bank API,2.26,2.3,2.2,2.3,,2.2,2.3,156.0,2025-08-25 12:14:56.796825
+LKA,Sri Lanka,South Asia,Upper middle income,2022,World Bank API,2.86,2.5,,2.8,2.7,3.0,3.3,74.0,2025-08-25 12:14:56.796825
+BGD,Bangladesh,South Asia,Lower middle income,2022,World Bank API,2.58,2.3,2.3,2.6,2.7,,3.0,103.0,2025-08-25 12:14:56.796825
+PAK,Pakistan,South Asia,Lower middle income,2018,World Bank API,2.36,2.12,2.2,2.63,2.59,2.27,,144.0,2025-08-25 12:14:56.796825
+NPL,Nepal,South Asia,Lower middle income,2018,World Bank API,2.64,,,2.36,2.46,2.65,3.1,97.0,2025-08-25 12:14:56.796825
+BTN,Bhutan,South Asia,Lower middle income,2022,World Bank API,2.45,2.7,2.2,2.3,2.6,2.3,2.6,129.0,2025-08-25 12:14:56.796825
+KAZ,Kazakhstan,Europe & Central Asia,Upper middle income,2022,World Bank API,2.68,2.6,2.5,2.6,,2.8,2.9,90.0,2025-08-25 12:14:56.796825
+BLR,Belarus,Europe & Central Asia,Upper middle income,2022,World Bank API,2.72,2.6,2.7,2.6,2.6,,3.1,85.0,2025-08-25 12:14:56.796825
+UZB,Uzbekistan,Europe & Central Asia,Lower middle income,2022,World Bank API,2.57,2.6,2.4,2.6,2.6,2.4,2.8,109.0,2025-08-25 12:14:56.796825
+ARM,Armenia,Europe & Central Asia,Upper middle income,2022,World Bank API,2.48,2.5,2.6,2.2,2.6,2.3,2.7,119.0,2025-08-25 12:14:56.796825
+GEO,Georgia,Europe & Central Asia,Upper middle income,2022,World Bank API,2.68,2.6,2.3,2.7,2.6,2.8,3.1,89.0,2025-08-25 12:14:56.796825
+AZE,Azerbaijan,Europe & Central Asia,Upper middle income,2014,World Bank API,2.45,2.57,2.71,2.57,2.14,2.14,2.57,130.0,2025-08-25 12:14:56.796825
+KGZ,Kyrgyz Republic,Europe & Central Asia,Lower middle income,2022,World Bank API,2.32,2.2,2.4,2.4,2.2,2.3,2.4,147.0,2025-08-25 12:14:56.796825
+TJK,Tajikistan,Europe & Central Asia,Lower middle income,2022,World Bank API,2.63,,2.5,2.5,,,2.9,99.0,2025-08-25 12:14:56.796825
+TKM,Turkmenistan,Europe & Central Asia,Upper middle income,2018,World Bank API,2.41,2.35,2.23,2.29,2.31,2.56,2.72,136.0,2025-08-25 12:14:56.796825
+MDA,Moldova,Europe & Central Asia,Upper middle income,2022,World Bank API,2.64,1.9,,2.7,2.8,2.8,3.0,98.0,2025-08-25 12:14:56.796825
+ARE,United Arab Emirates,Middle East & North Africa,High income,2022,World Bank API,3.96,3.7,4.1,3.8,4.0,,4.2,12.0,2025-08-25 12:14:56.796825
+ISR,Israel,Middle East & North Africa,High income,2022,World Bank API,3.65,3.4,3.7,3.5,3.8,3.7,3.8,27.0,2025-08-25 12:14:56.796825
+QAT,Qatar,Middle East & North Africa,High income,2022,World Bank API,3.5,3.1,3.8,3.1,3.9,3.6,3.5,35.0,2025-08-25 12:14:56.796825
+KWT,Kuwait,Middle East & North Africa,High income,2022,World Bank API,3.16,3.2,3.6,,2.9,3.3,2.8,52.0,2025-08-25 12:14:56.796825
+BHR,Bahrain,Middle East & North Africa,High income,2022,World Bank API,3.47,3.3,3.6,3.1,3.3,3.4,4.1,36.0,2025-08-25 12:14:56.796825
+OMN,Oman,Middle East & North Africa,High income,2022,World Bank API,3.3,3.0,3.2,3.4,3.2,3.9,3.1,44.0,2025-08-25 12:14:56.796825
+JOR,Jordan,Middle East & North Africa,Upper middle income,2018,World Bank API,2.69,2.49,2.72,2.44,2.55,2.77,3.18,88.0,2025-08-25 12:14:56.796825
+LBN,Lebanon,Middle East & North Africa,Upper middle income,2018,World Bank API,2.71,2.38,2.64,2.8,2.47,2.8,3.18,86.0,2025-08-25 12:14:56.796825
+EGY,"Egypt, Arab Rep.",Middle East & North Africa,Lower middle income,2022,World Bank API,3.12,,3.0,3.2,2.9,2.9,3.6,58.0,2025-08-25 12:14:56.796825
+MAR,Morocco,Middle East & North Africa,Lower middle income,2018,World Bank API,2.46,2.33,2.43,2.58,,2.51,,126.0,2025-08-25 12:14:56.796825
+ZAF,South Africa,Sub-Saharan Africa,Upper middle income,2022,World Bank API,3.65,3.3,3.6,3.6,3.8,3.8,3.8,26.0,2025-08-25 12:14:56.796825
+NGA,Nigeria,Sub-Saharan Africa,Lower middle income,2022,World Bank API,2.57,2.4,2.4,2.5,2.3,2.7,3.1,108.0,2025-08-25 12:14:56.796825
+KEN,Kenya,Sub-Saharan Africa,Lower middle income,2018,World Bank API,2.81,2.65,2.55,2.62,2.81,3.07,3.18,80.0,2025-08-25 12:14:56.796825
+GHA,Ghana,Sub-Saharan Africa,Lower middle income,2022,World Bank API,2.48,2.7,2.4,2.4,2.5,2.2,2.7,120.0,2025-08-25 12:14:56.796825
+ETH,Ethiopia,Sub-Saharan Africa,Low income,2016,World Bank API,2.33,2.6,2.12,,2.37,2.18,2.37,146.0,2025-08-25 12:14:56.796825
+UGA,Uganda,Sub-Saharan Africa,Low income,2018,World Bank API,2.56,2.61,2.19,2.76,2.5,2.41,2.9,110.0,2025-08-25 12:14:56.796825
+TZA,Tanzania,Sub-Saharan Africa,Lower middle income,2016,World Bank API,2.98,2.78,2.81,2.98,2.92,2.98,3.44,61.0,2025-08-25 12:14:56.796825
+ZWE,Zimbabwe,Sub-Saharan Africa,Lower middle income,2022,World Bank API,2.48,2.2,2.4,2.5,2.3,2.7,2.8,121.0,2025-08-25 12:14:56.796825
+ZMB,Zambia,Sub-Saharan Africa,Lower middle income,2018,World Bank API,2.51,2.18,2.3,3.05,2.48,1.98,3.05,115.0,2025-08-25 12:14:56.796825
+BWA,Botswana,Sub-Saharan Africa,Upper middle income,2022,World Bank API,3.13,3.0,3.1,3.0,3.4,3.0,3.3,55.0,2025-08-25 12:14:56.796825
+ARG,Argentina,Latin America & Caribbean,Upper middle income,2022,World Bank API,2.82,2.7,2.8,2.7,2.7,2.9,3.1,79.0,2025-08-25 12:14:56.796825
+CHL,Chile,Latin America & Caribbean,High income,2022,World Bank API,2.97,3.0,2.8,2.7,3.1,3.0,3.2,65.0,2025-08-25 12:14:56.796825
+COL,Colombia,Latin America & Caribbean,Upper middle income,2022,World Bank API,2.97,2.5,2.9,3.0,3.1,3.1,3.2,64.0,2025-08-25 12:14:56.796825
+PER,Peru,Latin America & Caribbean,Upper middle income,2022,World Bank API,2.95,2.6,2.5,3.1,2.7,3.4,3.4,67.0,2025-08-25 12:14:56.796825
+URY,Uruguay,Latin America & Caribbean,High income,2022,World Bank API,3.04,2.9,2.7,,3.1,3.3,3.2,60.0,2025-08-25 12:14:56.796825
+URY,Uruguay,Latin America & Caribbean,High income,2022,World Bank API,3.04,2.9,2.7,,3.1,3.3,3.2,63.0,2025-08-25 12:14:56.796825
+ECU,Ecuador,Latin America & Caribbean,Upper middle income,2018,World Bank API,2.88,2.8,2.72,2.75,2.75,3.07,3.19,71.0,2025-08-25 12:14:56.796825
+ECU,Ecuador,Latin America & Caribbean,Upper middle income,2018,World Bank API,2.88,2.8,2.72,2.75,2.75,3.07,3.19,72.0,2025-08-25 12:14:56.796825
+BOL,Bolivia,Latin America & Caribbean,Lower middle income,2022,World Bank API,2.38,2.1,,2.5,2.4,2.5,2.4,139.0,2025-08-25 12:14:56.796825
+BOL,Bolivia,Latin America & Caribbean,Lower middle income,2022,World Bank API,2.38,2.1,,2.5,2.4,2.5,2.4,140.0,2025-08-25 12:14:56.796825
+PRY,Paraguay,Latin America & Caribbean,Upper middle income,2022,World Bank API,2.67,2.4,2.5,2.7,2.6,2.8,3.0,91.0,2025-08-25 12:14:56.796825
+PRY,Paraguay,Latin America & Caribbean,Upper middle income,2022,World Bank API,2.67,2.4,2.5,2.7,2.6,2.8,3.0,92.0,2025-08-25 12:14:56.796825
+VEN,"Venezuela, RB",Latin America & Caribbean,Upper middle income,2022,World Bank API,2.3,2.1,2.4,2.0,2.5,2.3,2.5,149.0,2025-08-25 12:14:56.796825
+VEN,"Venezuela, RB",Latin America & Caribbean,Upper middle income,2022,World Bank API,2.3,2.1,2.4,2.0,2.5,2.3,2.5,150.0,2025-08-25 12:14:56.796825
+CRI,Costa Rica,Latin America & Caribbean,Upper middle income,2022,World Bank API,2.92,2.8,,2.8,,2.9,3.2,69.0,2025-08-25 12:14:56.796825
+GRL,Greenland,North America,High income,2023,World Bank API,,,,,,,,,2025-08-25 12:14:56.796825
+BMU,Bermuda,North America,High income,2023,World Bank API,,,,,,,,,2025-08-25 12:14:56.796825
+SPM,St. Pierre and Miquelon,North America,High income,2023,World Bank API,,,,,,,,,2025-08-25 12:14:56.796825
+GUY,Guyana,Latin America & Caribbean,Upper middle income,2022,World Bank API,2.37,2.3,2.4,2.1,2.6,2.2,2.6,142.0,2025-08-25 12:14:56.796825
+SUR,Suriname,Latin America & Caribbean,Upper middle income,2023,World Bank API,,,,,,,,,2025-08-25 12:14:56.796825
+GUF,French Guiana,Latin America & Caribbean,High income,2023,World Bank API,,,,,,,,,2025-08-25 12:14:56.796825
+HTI,Haiti,Latin America & Caribbean,Low income,2022,World Bank API,2.16,2.1,1.8,2.3,,2.1,2.5,160.0,2025-08-25 12:14:56.796825
+NIC,Nicaragua,Latin America & Caribbean,Lower middle income,2022,World Bank API,2.47,2.0,1.9,2.8,2.8,2.4,2.9,122.0,2025-08-25 12:14:56.796825
+HND,Honduras,Latin America & Caribbean,Lower middle income,2022,World Bank API,2.83,2.8,2.7,3.0,2.7,2.6,3.2,76.0,2025-08-25 12:14:56.796825
+SLV,El Salvador,Latin America & Caribbean,Lower middle income,2022,World Bank API,2.6,,2.2,2.6,2.7,2.9,,102.0,2025-08-25 12:14:56.796825
+BLZ,Belize,Latin America & Caribbean,Upper middle income,2023,World Bank API,,,,,,,,,2025-08-25 12:14:56.796825
+BHS,"Bahamas, The",Latin America & Caribbean,High income,2022,World Bank API,2.73,2.7,2.5,3.1,2.5,2.6,3.0,84.0,2025-08-25 12:14:56.796825
+BRB,Barbados,Latin America & Caribbean,High income,2023,World Bank API,,,,,,,,,2025-08-25 12:14:56.796825
+LCA,St. Lucia,Latin America & Caribbean,Upper middle income,2023,World Bank API,,,,,,,,,2025-08-25 12:14:56.796825
+VCT,St. Vincent and the Grenadines,Latin America & Caribbean,Upper middle income,2023,World Bank API,,,,,,,,,2025-08-25 12:14:56.796825
+GRD,Grenada,Latin America & Caribbean,Upper middle income,2022,World Bank API,2.6,2.6,2.5,2.6,2.2,,3.1,101.0,2025-08-25 12:14:56.796825
+DMA,Dominica,Latin America & Caribbean,Upper middle income,2023,World Bank API,,,,,,,,,2025-08-25 12:14:56.796825
+ATG,Antigua and Barbuda,Latin America & Caribbean,High income,2022,World Bank API,2.88,2.2,2.7,2.9,2.9,3.2,3.4,70.0,2025-08-25 12:14:56.796825
+KNA,St. Kitts and Nevis,Latin America & Caribbean,High income,2023,World Bank API,,,,,,,,,2025-08-25 12:14:56.796825
+PRI,Puerto Rico,Latin America & Caribbean,High income,2023,World Bank API,,,,,,,,,2025-08-25 12:14:56.796825
+VIR,Virgin Islands (U.S.),Latin America & Caribbean,High income,2023,World Bank API,,,,,,,,,2025-08-25 12:14:56.796825
+ABW,Aruba,Latin America & Caribbean,High income,2023,World Bank API,,,,,,,,,2025-08-25 12:14:56.796825
+WSM,Samoa,East Asia & Pacific,Upper middle income,2023,World Bank API,,,,,,,,,2025-08-25 12:14:56.796825
+TON,Tonga,East Asia & Pacific,Upper middle income,2023,World Bank API,,,,,,,,,2025-08-25 12:14:56.796825
+VUT,Vanuatu,East Asia & Pacific,Lower middle income,2023,World Bank API,,,,,,,,,2025-08-25 12:14:56.796825
+SLB,Solomon Islands,East Asia & Pacific,Lower middle income,2022,World Bank API,2.82,2.4,2.6,2.9,2.9,2.9,3.2,78.0,2025-08-25 12:14:56.796825
+KIR,Kiribati,East Asia & Pacific,Lower middle income,2023,World Bank API,,,,,,,,,2025-08-25 12:14:56.796825
+TUV,Tuvalu,East Asia & Pacific,Upper middle income,2023,World Bank API,,,,,,,,,2025-08-25 12:14:56.796825
+NRU,Nauru,East Asia & Pacific,Upper middle income,2023,World Bank API,,,,,,,,,2025-08-25 12:14:56.796825
+PLW,Palau,East Asia & Pacific,Upper middle income,2023,World Bank API,,,,,,,,,2025-08-25 12:14:56.796825
+FSM,"Micronesia, Fed. Sts.",East Asia & Pacific,Lower middle income,2023,World Bank API,,,,,,,,,2025-08-25 12:14:56.796825
+MHL,Marshall Islands,East Asia & Pacific,Upper middle income,2023,World Bank API,,,,,,,,,2025-08-25 12:14:56.796825
+AND,Andorra,Europe & Central Asia,High income,2023,World Bank API,,,,,,,,,2025-08-25 12:14:56.796825
+LIE,Liechtenstein,Europe & Central Asia,High income,2023,World Bank API,,,,,,,,,2025-08-25 12:14:56.796825
+MCO,Monaco,Europe & Central Asia,High income,2023,World Bank API,,,,,,,,,2025-08-25 12:14:56.796825
+SMR,San Marino,Europe & Central Asia,High income,2023,World Bank API,,,,,,,,,2025-08-25 12:14:56.796825
+VAT,Vatican City,Europe & Central Asia,High income,2023,World Bank API,,,,,,,,,2025-08-25 12:14:56.796825
+IRN,"Iran, Islamic Rep.",Middle East & North Africa,Upper middle income,2022,World Bank API,2.36,2.2,2.4,2.4,2.1,,2.7,143.0,2025-08-25 12:14:56.796825
+IRQ,Iraq,Middle East & North Africa,Upper middle income,2022,World Bank API,2.44,2.1,2.2,2.5,,2.4,3.0,131.0,2025-08-25 12:14:56.796825
+SYR,Syrian Arab Republic,Middle East & North Africa,Lower middle income,2022,World Bank API,2.28,2.2,2.2,2.3,2.2,2.3,2.5,153.0,2025-08-25 12:14:56.796825
+YEM,"Yemen, Rep.",Middle East & North Africa,Lower middle income,2022,World Bank API,2.17,1.7,1.9,1.7,2.6,2.3,2.8,159.0,2025-08-25 12:14:56.796825
+PSE,West Bank and Gaza,Middle East & North Africa,Lower middle income,2023,World Bank API,,,,,,,,,2025-08-25 12:14:56.796825
+COM,Comoros,Sub-Saharan Africa,Low income,2018,World Bank API,2.55,2.62,2.25,2.49,2.21,2.93,2.8,113.0,2025-08-25 12:14:56.796825
+DJI,Djibouti,Sub-Saharan Africa,Lower middle income,2022,World Bank API,2.75,2.6,2.3,2.5,2.8,2.7,3.6,82.0,2025-08-25 12:14:56.796825
+ERI,Eritrea,Sub-Saharan Africa,Low income,2018,World Bank API,2.08,2.13,1.86,2.09,2.17,2.17,2.08,162.0,2025-08-25 12:14:56.796825
+GMB,"Gambia, The",Sub-Saharan Africa,Low income,2022,World Bank API,2.33,1.8,2.3,2.6,2.3,2.4,2.6,145.0,2025-08-25 12:14:56.796825
+GIN,Guinea,Sub-Saharan Africa,Low income,2022,World Bank API,2.5,2.4,,2.2,2.7,2.7,2.5,116.0,2025-08-25 12:14:56.796825
+GNB,Guinea-Bissau,Sub-Saharan Africa,Low income,2022,World Bank API,2.6,2.7,2.4,2.9,2.9,2.3,2.4,100.0,2025-08-25 12:14:56.796825
+LBR,Liberia,Sub-Saharan Africa,Low income,2022,World Bank API,2.46,,2.4,2.8,2.4,2.4,2.3,127.0,2025-08-25 12:14:56.796825
+MDG,Madagascar,Sub-Saharan Africa,Low income,2022,World Bank API,2.3,1.8,,2.9,2.2,2.0,2.6,151.0,2025-08-25 12:14:56.796825
+MWI,Malawi,Sub-Saharan Africa,Low income,2018,World Bank API,2.58,2.43,2.18,2.55,2.68,2.67,2.97,105.0,2025-08-25 12:14:56.796825
+MLI,Mali,Sub-Saharan Africa,Low income,2022,World Bank API,2.58,2.6,2.0,2.6,2.5,2.7,3.1,106.0,2025-08-25 12:14:56.796825
+MRT,Mauritania,Sub-Saharan Africa,Lower middle income,2022,World Bank API,2.32,2.1,2.0,2.2,,2.5,2.8,148.0,2025-08-25 12:14:56.796825
+MOZ,Mozambique,Sub-Saharan Africa,Low income,2016,World Bank API,2.67,2.49,2.24,3.06,2.44,2.75,3.04,94.0,2025-08-25 12:14:56.796825
+NER,Niger,Sub-Saharan Africa,Low income,2018,World Bank API,2.07,1.77,2.0,2.0,2.1,2.22,2.33,165.0,2025-08-25 12:14:56.796825
+RWA,Rwanda,Sub-Saharan Africa,Low income,2022,World Bank API,2.8,2.5,,2.4,3.0,3.0,3.1,81.0,2025-08-25 12:14:56.796825
+STP,Sao Tome and Principe,Sub-Saharan Africa,Lower middle income,2018,World Bank API,2.65,2.71,2.33,2.42,2.65,2.78,3.01,96.0,2025-08-25 12:14:56.796825
+SLE,Sierra Leone,Sub-Saharan Africa,Low income,2018,World Bank API,2.07,1.82,1.82,2.18,2.0,2.27,2.34,164.0,2025-08-25 12:14:56.796825
+SOM,Somalia,Sub-Saharan Africa,Low income,2022,World Bank API,2.04,,1.9,2.4,1.8,1.8,2.3,166.0,2025-08-25 12:14:56.796825
+SSD,South Sudan,Sub-Saharan Africa,Low income,2023,World Bank API,,,,,,,,,2025-08-25 12:14:56.796825
+SDN,Sudan,Sub-Saharan Africa,Lower middle income,2022,World Bank API,2.37,2.1,2.3,2.4,2.4,2.3,2.7,141.0,2025-08-25 12:14:56.796825
+TCD,Chad,Sub-Saharan Africa,Low income,2018,World Bank API,2.42,2.15,2.37,2.37,2.62,2.37,2.62,132.0,2025-08-25 12:14:56.796825
+BEN,Benin,Sub-Saharan Africa,Lower middle income,2022,World Bank API,2.83,2.7,2.5,2.9,3.0,3.2,2.7,77.0,2025-08-25 12:14:56.796825
+BFA,Burkina Faso,Sub-Saharan Africa,Low income,2022,World Bank API,2.28,2.0,2.3,2.4,2.4,2.2,2.4,154.0,2025-08-25 12:14:56.796825
+CAF,Central African Republic,Sub-Saharan Africa,Low income,2022,World Bank API,2.42,2.4,2.6,2.1,,2.4,2.6,135.0,2025-08-25 12:14:56.796825
+CMR,Cameroon,Sub-Saharan Africa,Lower middle income,2022,World Bank API,2.07,2.1,2.1,2.2,2.1,1.8,2.1,163.0,2025-08-25 12:14:56.796825
+COG,"Congo, Rep.",Sub-Saharan Africa,Lower middle income,2022,World Bank API,2.58,2.3,2.1,2.6,2.9,2.7,2.9,104.0,2025-08-25 12:14:56.796825
+COD,"Congo, Dem. Rep.",Sub-Saharan Africa,Low income,2022,World Bank API,2.47,2.3,2.3,2.5,2.4,2.5,2.8,123.0,2025-08-25 12:14:56.796825
+GAB,Gabon,Sub-Saharan Africa,Upper middle income,2022,World Bank API,2.46,2.0,2.2,2.6,,2.5,3.0,125.0,2025-08-25 12:14:56.796825
+GNQ,Equatorial Guinea,Sub-Saharan Africa,Upper middle income,2018,World Bank API,2.3,1.91,1.88,2.88,2.25,2.12,2.75,152.0,2025-08-25 12:14:56.796825
+AGO,Angola,Sub-Saharan Africa,Lower middle income,2022,World Bank API,2.15,1.7,2.1,2.4,2.3,2.3,2.1,161.0,2025-08-25 12:14:56.796825
+LSO,Lesotho,Sub-Saharan Africa,Lower middle income,2018,World Bank API,2.27,2.36,1.96,2.21,2.03,2.37,2.7,155.0,2025-08-25 12:14:56.796825
+SWZ,Eswatini,Sub-Saharan Africa,Lower middle income,2023,World Bank API,,,,,,,,,2025-08-25 12:14:56.796825
+AFG,Afghanistan,South Asia,Low income,2022,World Bank API,1.88,,1.7,1.8,2.0,1.6,2.3,168.0,2025-08-25 12:14:56.796825
+MAC,"Macao SAR, China",East Asia & Pacific,High income,2023,World Bank API,,,,,,,,,2025-08-25 12:14:56.796825
+MDV,Maldives,South Asia,Upper middle income,2018,World Bank API,2.67,2.4,2.72,2.66,2.29,2.6,3.32,93.0,2025-08-25 12:14:56.796825
+CUB,Cuba,Latin America & Caribbean,Upper middle income,2022,World Bank API,2.25,2.0,2.2,2.1,2.2,2.4,2.6,157.0,2025-08-25 12:14:56.796825
+JAM,Jamaica,Latin America & Caribbean,Upper middle income,2022,World Bank API,2.53,2.2,2.4,2.4,2.5,2.8,2.9,114.0,2025-08-25 12:14:56.796825
+TTO,Trinidad and Tobago,Latin America & Caribbean,High income,2022,World Bank API,2.48,2.2,2.4,2.5,2.4,2.5,2.9,118.0,2025-08-25 12:14:56.796825
+URY,Uruguay,Latin America & Caribbean,High income,2022,World Bank API,2.98,2.9,2.7,2.7,3.1,3.3,3.2,60.0,2025-08-25 12:14:56.796825
+URY,Uruguay,Latin America & Caribbean,High income,2022,World Bank API,2.98,2.9,2.7,2.7,3.1,3.3,3.2,63.0,2025-08-25 12:14:56.796825
+ECU,Ecuador,Latin America & Caribbean,Upper middle income,2018,World Bank API,2.88,2.8,2.72,2.75,2.75,3.07,3.19,71.0,2025-08-25 12:14:56.796825
+ECU,Ecuador,Latin America & Caribbean,Upper middle income,2018,World Bank API,2.88,2.8,2.72,2.75,2.75,3.07,3.19,72.0,2025-08-25 12:14:56.796825
+BOL,Bolivia,Latin America & Caribbean,Lower middle income,2022,World Bank API,2.38,2.1,2.4,2.5,2.4,2.5,2.4,139.0,2025-08-25 12:14:56.796825
+BOL,Bolivia,Latin America & Caribbean,Lower middle income,2022,World Bank API,2.38,2.1,2.4,2.5,2.4,2.5,2.4,140.0,2025-08-25 12:14:56.796825
+PRY,Paraguay,Latin America & Caribbean,Upper middle income,2022,World Bank API,2.67,2.4,2.5,2.7,2.6,2.8,3.0,91.0,2025-08-25 12:14:56.796825
+PRY,Paraguay,Latin America & Caribbean,Upper middle income,2022,World Bank API,2.67,2.4,2.5,2.7,2.6,2.8,3.0,92.0,2025-08-25 12:14:56.796825
+VEN,"Venezuela, RB",Latin America & Caribbean,Upper middle income,2022,World Bank API,2.3,2.1,2.4,2.0,2.5,2.3,2.5,149.0,2025-08-25 12:14:56.796825
+VEN,"Venezuela, RB",Latin America & Caribbean,Upper middle income,2022,World Bank API,2.3,2.1,2.4,2.0,2.5,2.3,2.5,150.0,2025-08-25 12:14:56.796825
+TUN,Tunisia,Middle East & North Africa,Lower middle income,2018,World Bank API,2.56,2.38,2.1,2.5,2.3,2.86,3.24,111.0,2025-08-25 12:14:56.796825
+DZA,Algeria,Middle East & North Africa,Lower middle income,2022,World Bank API,2.45,2.3,2.1,3.0,2.2,2.5,2.6,128.0,2025-08-25 12:14:56.796825
+LBY,Libya,Middle East & North Africa,Upper middle income,2022,World Bank API,1.92,1.9,1.7,2.0,1.9,1.8,2.2,167.0,2025-08-25 12:14:56.796825
+NAM,Namibia,Sub-Saharan Africa,Upper middle income,2022,World Bank API,2.87,2.8,2.8,3.0,2.9,2.8,2.9,73.0,2025-08-25 12:14:56.796825
+MUS,Mauritius,Sub-Saharan Africa,High income,2022,World Bank API,2.55,2.4,2.5,1.9,2.5,2.9,3.1,112.0,2025-08-25 12:14:56.796825
+SEN,Senegal,Sub-Saharan Africa,Lower middle income,2018,World Bank API,2.25,2.17,,2.36,2.11,2.11,2.52,158.0,2025-08-25 12:14:56.796825
+CIV,Cote d'Ivoire,Sub-Saharan Africa,Lower middle income,2018,World Bank API,3.08,2.78,2.89,3.21,3.23,3.14,3.23,59.0,2025-08-25 12:14:56.796825

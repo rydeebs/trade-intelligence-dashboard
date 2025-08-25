@@ -1,0 +1,2 @@
+export_date,total_countries_with_lpi,countries_from_api,countries_from_fallback,countries_with_full_lpi,avg_lpi_score,top_logistics_performer,top_lpi_score,total_business_rules,data_sources,api_used
+2025-08-25 12:14:56.811947,211,211,0,178,2.892359550561798,Singapore,4.32,28,World Bank API,True

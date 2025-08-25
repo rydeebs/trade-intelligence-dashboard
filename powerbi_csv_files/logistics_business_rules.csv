@@ -1,0 +1,29 @@
+rule_type,business_type,product_category,factor,base_weight,description
+business_lpi_weight,B2C eCommerce,All,tracking_tracing_score,0.3,LPI weight for tracking_tracing_score in B2C eCommerce
+business_lpi_weight,B2C eCommerce,All,timeliness_score,0.25,LPI weight for timeliness_score in B2C eCommerce
+business_lpi_weight,B2C eCommerce,All,last_mile_delivery_quality,0.2,LPI weight for last_mile_delivery_quality in B2C eCommerce
+business_lpi_weight,B2C eCommerce,All,customs_score,0.15,LPI weight for customs_score in B2C eCommerce
+business_lpi_weight,B2C eCommerce,All,infrastructure_score,0.1,LPI weight for infrastructure_score in B2C eCommerce
+business_lpi_weight,B2B eCommerce,All,logistics_competence_score,0.3,LPI weight for logistics_competence_score in B2B eCommerce
+business_lpi_weight,B2B eCommerce,All,infrastructure_score,0.25,LPI weight for infrastructure_score in B2B eCommerce
+business_lpi_weight,B2B eCommerce,All,international_shipments_score,0.2,LPI weight for international_shipments_score in B2B eCommerce
+business_lpi_weight,B2B eCommerce,All,customs_score,0.15,LPI weight for customs_score in B2B eCommerce
+business_lpi_weight,B2B eCommerce,All,tracking_tracing_score,0.1,LPI weight for tracking_tracing_score in B2B eCommerce
+business_lpi_weight,Marketplace,All,infrastructure_score,0.25,LPI weight for infrastructure_score in Marketplace
+business_lpi_weight,Marketplace,All,tracking_tracing_score,0.25,LPI weight for tracking_tracing_score in Marketplace
+business_lpi_weight,Marketplace,All,timeliness_score,0.2,LPI weight for timeliness_score in Marketplace
+business_lpi_weight,Marketplace,All,logistics_competence_score,0.15,LPI weight for logistics_competence_score in Marketplace
+business_lpi_weight,Marketplace,All,digital_platforms_adoption,0.15,LPI weight for digital_platforms_adoption in Marketplace
+business_lpi_weight,Dropshipping,All,international_shipments_score,0.3,LPI weight for international_shipments_score in Dropshipping
+business_lpi_weight,Dropshipping,All,customs_score,0.25,LPI weight for customs_score in Dropshipping
+business_lpi_weight,Dropshipping,All,tracking_tracing_score,0.2,LPI weight for tracking_tracing_score in Dropshipping
+business_lpi_weight,Dropshipping,All,timeliness_score,0.15,LPI weight for timeliness_score in Dropshipping
+business_lpi_weight,Dropshipping,All,infrastructure_score,0.1,LPI weight for infrastructure_score in Dropshipping
+business_lpi_weight,SaaS Platform,All,infrastructure_score,0.4,LPI weight for infrastructure_score in SaaS Platform
+business_lpi_weight,SaaS Platform,All,logistics_competence_score,0.25,LPI weight for logistics_competence_score in SaaS Platform
+business_lpi_weight,SaaS Platform,All,digital_platforms_adoption,0.2,LPI weight for digital_platforms_adoption in SaaS Platform
+business_lpi_weight,SaaS Platform,All,tracking_tracing_score,0.15,LPI weight for tracking_tracing_score in SaaS Platform
+business_lpi_weight,Digital Services,All,infrastructure_score,0.35,LPI weight for infrastructure_score in Digital Services
+business_lpi_weight,Digital Services,All,digital_platforms_adoption,0.3,LPI weight for digital_platforms_adoption in Digital Services
+business_lpi_weight,Digital Services,All,logistics_competence_score,0.2,LPI weight for logistics_competence_score in Digital Services
+business_lpi_weight,Digital Services,All,tracking_tracing_score,0.15,LPI weight for tracking_tracing_score in Digital Services
